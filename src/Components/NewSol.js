@@ -129,7 +129,7 @@ export const NewSol = () => {
 
       <div class="bottom-bar">
         <button class="bottom-button" onClick={onSubmitSol}>
-          <span class="back-icon">←</span> Próximo
+          <span class="back-icon">Próximo →</span>
         </button>
       </div>
 
