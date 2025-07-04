@@ -20,23 +20,7 @@ function App() {
     <div className="App">
       <div>
         <section>      
-          <BrowserRouter>                    
-            <Routes> 
-                <Route path="/" element={<Inicial/>}/>
-                 <Route path="/solscivil" element={<Solicitacoes/>}/>
-                 <Route path="/solspref" element={<SolsPref/>}/>
-                 <Route path="/newsol" element={<NewSol/>}/>
-                 <Route path="/edit/:id" element={<Edit/>}/>
-                 <Route path="/loginpref" element={<LoginPrefeitura/>}/>
-                 <Route path="/logincivil" element={<LoginPessoa/>}/>
-                 <Route path="/profilepref" element={<Profile/>}/>
-                 <Route path="/profilecivil" element={<ProfileCivil/>}/>
-                 <Route path="/config" element={<Config/>}/>
-                 <Route path='/config/proposito' element={<Proposito/>}/>
-                 <Route path='/config/help' element={<Ajuda/>}/>
-                 <Route path='/config/about' element={<About/>}/>
-            </Routes>    
-            </BrowserRouter>                    
+                         
         </section>
       </div>
     </div>
