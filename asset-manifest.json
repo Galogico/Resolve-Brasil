@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/Resolve-Brasil/static/css/main.f1e59605.css",
+    "main.js": "/Resolve-Brasil/static/js/main.403a3f06.js",
+    "static/js/453.8b2bae31.chunk.js": "/Resolve-Brasil/static/js/453.8b2bae31.chunk.js",
+    "static/media/ResolveBrasil.png": "/Resolve-Brasil/static/media/ResolveBrasil.18fa764bf6f9bf8474f0.png",
+    "static/media/obt.png": "/Resolve-Brasil/static/media/obt.9d25f5473f49a48e9452.png",
+    "static/media/animal.png": "/Resolve-Brasil/static/media/animal.6df7efe5dccb710587e7.png",
+    "static/media/perfil.png": "/Resolve-Brasil/static/media/perfil.b4144a5c4b22478b6fdb.png",
+    "static/media/help.png": "/Resolve-Brasil/static/media/help.8b584cea509044ace7a0.png",
+    "static/media/info.png": "/Resolve-Brasil/static/media/info.db88742c102ecb73a0f5.png",
+    "static/media/dengue.png": "/Resolve-Brasil/static/media/dengue.22891a371448535328be.png",
+    "static/media/mato.png": "/Resolve-Brasil/static/media/mato.0d547a4ce21afa2aea3a.png",
+    "static/media/colmeia.png": "/Resolve-Brasil/static/media/colmeia.4a0bec24cc2eedbd5315.png",
+    "static/media/limpeza.png": "/Resolve-Brasil/static/media/limpeza.a300288fc835ebd2b2f5.png",
+    "static/media/calcada.png": "/Resolve-Brasil/static/media/calcada.96ecc1df69996988640f.png",
+    "static/media/saneamento.png": "/Resolve-Brasil/static/media/saneamento.270b2053165c8d6cc4e8.png",
+    "static/media/rua.png": "/Resolve-Brasil/static/media/rua.24beaedcfdf5a8c5f7c2.png",
+    "static/media/ilum.png": "/Resolve-Brasil/static/media/ilum.f8a27490e79739c5649f.png",
+    "static/media/tapaburacos.png": "/Resolve-Brasil/static/media/tapaburacos.435174b4b08f6a4d3200.png",
+    "static/media/arvores.png": "/Resolve-Brasil/static/media/arvores.bfb196c805db785b5ca5.png",
+    "static/media/pavimentacao.png": "/Resolve-Brasil/static/media/pavimentacao.368fbf172685920531d4.png",
+    "index.html": "/Resolve-Brasil/index.html",
+    "main.f1e59605.css.map": "/Resolve-Brasil/static/css/main.f1e59605.css.map",
+    "main.403a3f06.js.map": "/Resolve-Brasil/static/js/main.403a3f06.js.map",
+    "453.8b2bae31.chunk.js.map": "/Resolve-Brasil/static/js/453.8b2bae31.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f1e59605.css",
+    "static/js/main.403a3f06.js"
+  ]
+}
