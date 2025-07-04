@@ -25,57 +25,56 @@ export const LoginPrefeitura = () =>{
       }
     }
 
-    useEffect(() => {
-        const HasLoggedIn = () => {
-            if(window.localStorage.getItem("CITY_MAYOR")){
-              navigate('/solspref');
-            }
+  useEffect(() => {
+    const HasLoggedIn = () => {
+        if(window.localStorage.getItem("CITY_MAYOR")){
+          navigate('/solspref');
         }
+    }
 
-        HasLoggedIn();
-    })
-
+    HasLoggedIn();
+}, [navigate]) 
     return(<div>
-  <div class="top-bar">
+  <div className="top-bar">
     <img src={logo} alt="Logo"/>
   </div>
 
-  <div class="tabs">
-    <div class="tab active">Cadastrar</div>
+  <div className="tabs">
+    <div className="tab active">Cadastrar</div>
   </div>
 
-  <div class="form-container">
-    <div class="form-row">
-      <div class="form-group" flex = "2">
-        <label for="municipio">Município</label>
+  <div className="form-container">
+    <div className="form-row">
+      <div className="form-group" flex = "2">
+        <label htmlFor="municipio">Município</label>
         <input type="text" id="municipio" onChange={(e) => setNewCity(e.target.value)} placeholder="Município"/>
       </div>
-      <div class="form-group" flex= "1">
-        <label for="estado">Estado</label>
+      <div className="form-group" flex= "1">
+        <label htmlFor="estado">Estado</label>
         <input type="text" id="estado" maxlength="2" onChange={(e) => setNewState(e.target.value)} placeholder="--"/>
       </div>
     </div>
 
-    <div class="form-group">
-      <label for="cnpj">CNPJ</label>
+    <div className="form-group">
+      <label htmlFor="cnpj">CNPJ</label>
       <input type="text" id="cnpj" onChange={(e) => setNewCNPJ(e.target.value)} placeholder="CNPJ"/>
     </div>
 
-    <div class="form-group">
-      <label for="ibge">Código IBGE</label>
+    <div className="form-group">
+      <label htmlFor="ibge">Código IBGE</label>
       <input type="text" id="ibge" onChange={(e) => setNewCode(e.target.value)} placeholder="Código IBGE"/>
     </div>
 
-    <div class="form-group password-container">
-      <label for="senha">Senha</label>
+    <div className="form-group password-container">
+      <label htmlFor="senha">Senha</label>
       <input type="password" id="senha" placeholder="Senha"/>
-      <img src="eyes.png" alt="Mostrar senha" class="eye-icon"/>
+      <img src="eyes.png" alt="Mostrar senha" className="eye-icon"/>
     </div>
 
-    <a onClick={OnLogin} class="button">Próximo</a>
+    <a onClick={OnLogin} className="button">Próximo</a>
   </div>
 
-  <div class="bottom-bar"></div>
+  <div className="bottom-bar"></div>
 </div>
 )
 }

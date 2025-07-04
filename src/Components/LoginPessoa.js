@@ -35,7 +35,7 @@ export const LoginPessoa = () => {
         }
 
         HasLoggedIn();
-    },[])
+    },[navigate])
 
     return(<div>
   <div class="top-bar">
@@ -80,7 +80,7 @@ export const LoginPessoa = () => {
       <img src="eyes.png" alt="Mostrar senha" class="eye-icon"/>
     </div> */}
 
-    <a onClick={OnLogin} class="button">Login</a>
+  <button onClick={OnLogin} className="button">Login</button>
   </div>
 
   <div class="bottom-bar"></div>
