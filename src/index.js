@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route, HashRouter } from 'react-router-dom'; // Add missing import
+import {  Routes, Route, HashRouter } from 'react-router-dom'; // Add missing import
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { Inicial } from './Components/pagInicial';
