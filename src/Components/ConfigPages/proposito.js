@@ -25,7 +25,7 @@ export const Proposito = () => {
   </div>
 
 
-  <a href="/config" class="back-button">
+  <a href="/#/config" class="back-button">
     ←
   </a>
 

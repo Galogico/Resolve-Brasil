@@ -133,7 +133,7 @@ export const NewSol = () => {
         </button>
       </div>
 
-      <a href="/solscivil" class="back-button">
+      <a href="#/solscivil" class="back-button">
         ←
       </a>
 

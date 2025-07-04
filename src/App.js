@@ -4,7 +4,7 @@ import { Solicitacoes } from './Components/Solicitacoes.js';
 import { SolsPref } from './Components/SolsPref';
 import Edit from './Components/EditPref';
 
-import { BrowserRouter as Router} from 'react-router-dom';
+import { HashRouter as Router} from 'react-router-dom';
 import {Routes, Route} from 'react-router-dom';
 import { NewSol } from './Components/NewSol';
 import { Inicial } from './Components/pagInicial';

@@ -18,7 +18,7 @@ export const ProfileCivil = () =>{
         <h2>CPF:</h2>
         <p>{window.localStorage.getItem("CPF_USER")}</p>
         
-        <a href="./solscivil" className="back-button">
+        <a href="/#/solscivil" className="back-button">
           ←
         </a>
         <div className="bottom-bar"></div>

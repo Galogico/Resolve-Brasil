@@ -54,7 +54,7 @@ export const Edit = () =>{
                 <button className="editText button" onClick={() =>UpdateSols(id)}>Resolver</button>
             </div>
         </div>
-        <a href="/solspref" className="back-button">
+        <a href="#/solspref" className="back-button">
           ←
         </a>
     </div>);

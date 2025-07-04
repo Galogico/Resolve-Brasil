@@ -12,8 +12,8 @@ export const Inicial = () =>{
     <h1>Olá, bem vindo!</h1>
     <p>Quem é você?</p>
 
-    <a href="/loginpref" class="button">GOVERNO</a>
-    <a href="/logincivil" class="button">CIVIL</a>
+    <a href="#/loginpref" class="button">GOVERNO</a>
+    <a href="#/logincivil" class="button">CIVIL</a>
     </div>
     <div class="bottom-bar"></div>
 

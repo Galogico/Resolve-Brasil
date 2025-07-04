@@ -25,7 +25,7 @@ export const About = () => {
             </p>
         </div>
 
-        <a href="/config" class="back-button">
+        <a href="/#/config" class="back-button">
             ←
         </a>
 

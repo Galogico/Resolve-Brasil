@@ -40,7 +40,7 @@ export const SolsPref = () => {
 
   const linkToPage = (system) => {
     console.log("#/edit/" + system.id);
-    return `/edit/${system.id}`;
+    return `#/edit/${system.id}`;
   }
 
   return (
@@ -53,8 +53,8 @@ export const SolsPref = () => {
         <div className="header">
           <h1>Governo</h1>
           <div className="header-icons">
-            <a href='/profilepref'><img border-radius = "100%" src={user} alt="Perfil" height="50px" width="50px"/></a>
-            <a href='/config'><img src={config} alt="Configurações" /></a>
+            <a href='#/profilepref'><img border-radius = "100%" src={user} alt="Perfil" height="50px" width="50px"/></a>
+            <a href='#/config'><img src={config} alt="Configurações" /></a>
           </div>
         </div>
         {Sols.map((sol) => (
@@ -67,10 +67,11 @@ export const SolsPref = () => {
             </div>
           </div>
           <a className='solveButton' href = {linkToPage(sol)}>Solucionar</a>
+          {/* <button className="editText button" onClick={() =>UpdateSols(id)}>Resolver</button> */}
         </div>
         ))}
 
-        <a href="../" className="back-button">
+        <a href="/" className="back-button">
           ←
         </a>
 

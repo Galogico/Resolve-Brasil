@@ -20,7 +20,7 @@ export const Ajuda = () => {
     </p>
   </div>
 
-  <a href="/config" class="back-button">
+  <a href="/#/config" class="back-button">
     ←
   </a>
 

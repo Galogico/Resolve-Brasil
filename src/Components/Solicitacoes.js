@@ -48,8 +48,8 @@ export const Solicitacoes = () => {
           <div className="header">
             <h1>Civil</h1>
             <div className="header-icons">
-              <a href='/profilecivil'><img border-radius = "100%" src={profile} alt="Perfil" height="50px" width="50px"/></a>
-              <a href='/config'><img src={config} alt="Configurações" /></a>
+              <a href='/#/profilecivil'><img border-radius = "100%" src={profile} alt="Perfil" height="50px" width="50px"/></a>
+              <a href='/#/config'><img src={config} alt="Configurações" /></a>
             </div>
           </div>
           {Sols.map((sol) => (
@@ -64,7 +64,7 @@ export const Solicitacoes = () => {
             </div>
           ))}
 
-          <a href="../" className="back-button">
+          <a href="/" className="back-button">
             ←
           </a>
 
@@ -72,7 +72,7 @@ export const Solicitacoes = () => {
 
         </div>
       </div>
-      <a href="newsol" class="button">Nova Solicitação</a>
+      <a href="/#/newsol" class="button">Nova Solicitação</a>
     </div>
   );
 

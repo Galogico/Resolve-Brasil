@@ -14,17 +14,17 @@ export const Config = () => {
   <div class="contentConfig">
     <h1>Configurações</h1>
 
-    <a href="config/help" class="option">
+    <a href="#/config/help" class="option">
       <img src={help} alt="Ajuda"/>
       <span>Ajuda</span>
     </a>
 
-    <a href="config/about" class="option">
+    <a href="#/config/about" class="option">
       <img src={info} alt="Sobre nós"/>
       <span>Sobre nós</span>
     </a>
 
-    <a href="config/proposito" class="option">
+    <a href="#/config/proposito" class="option">
       <img src={obt} alt="Propósito"/>
       <span>Propósito</span>
     </a>

@@ -18,7 +18,7 @@ export const Profile = () =>{
         <h2>Código IBGE:</h2>
         <p>{window.localStorage.getItem("CODE_MAYOR")}</p>
         
-        <a href="./solspref" className="back-button">
+        <a href="/#/solspref" className="back-button">
           ←
         </a>
         <div className="bottom-bar"></div>
