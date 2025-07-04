@@ -1,0 +1,11 @@
+.status-container{
+    border-radius: 7px;
+    width: min-content;
+    border: none;
+}
+
+.status-container p{
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
