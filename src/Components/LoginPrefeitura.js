@@ -71,7 +71,7 @@ export const LoginPrefeitura = () =>{
       <img src="eyes.png" alt="Mostrar senha" className="eye-icon"/>
     </div>
 
-    <a onClick={OnLogin} className="button">Próximo</a>
+    <button onClick={OnLogin} className="button">Próximo</button>
   </div>
 
   <div className="bottom-bar"></div>
