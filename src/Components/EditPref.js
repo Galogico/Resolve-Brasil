@@ -12,7 +12,6 @@ export const Edit = () =>{
     useEffect(() =>{
         const fetchDocument = async () => {
             try {
-                console.log(id)
                 const docRef = doc(db, "Solicitacoes", id);
                 const docSnap = await getDoc(docRef);
 
@@ -23,7 +22,7 @@ export const Edit = () =>{
         }
         
         fetchDocument();
-    }, [])
+    }, [id])
 
     const UpdateSols = async(id) =>{
         const docRef = doc(db, "Solicitacoes", id);

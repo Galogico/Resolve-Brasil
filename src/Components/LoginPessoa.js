@@ -35,7 +35,7 @@ export const LoginPessoa = () => {
         }
 
         HasLoggedIn();
-    })
+    },[])
 
     return(<div>
   <div class="top-bar">
