@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter, Routes, Route } from 'react-router-dom'; // Add missing import
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
@@ -20,28 +21,24 @@ import { About } from './Components/ConfigPages/About';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter>                    
-            <Routes> 
-                <Route path="/" element={<Inicial/>}/>
-                 <Route path="/solscivil" element={<Solicitacoes/>}/>
-                 <Route path="/solspref" element={<SolsPref/>}/>
-                 <Route path="/newsol" element={<NewSol/>}/>
-                 <Route path="/edit/:id" element={<Edit/>}/>
-                 <Route path="/loginpref" element={<LoginPrefeitura/>}/>
-                 <Route path="/logincivil" element={<LoginPessoa/>}/>
-                 <Route path="/profilepref" element={<Profile/>}/>
-                 <Route path="/profilecivil" element={<ProfileCivil/>}/>
-                 <Route path="/config" element={<Config/>}/>
-                 <Route path='/config/proposito' element={<Proposito/>}/>
-                 <Route path='/config/help' element={<Ajuda/>}/>
-                 <Route path='/config/about' element={<About/>}/>
-            </Routes>    
-            </BrowserRouter>    
-  </React.StrictMode>,
-  document.getElementById('root')
+    <BrowserRouter basename="/Resolve-Brasil"> 
+      <Routes> 
+        <Route path="/" element={<Inicial/>}/>
+        <Route path="/solscivil" element={<Solicitacoes/>}/>
+        <Route path="/solspref" element={<SolsPref/>}/>
+        <Route path="/newsol" element={<NewSol/>}/>
+        <Route path="/edit/:id" element={<Edit/>}/>
+        <Route path="/loginpref" element={<LoginPrefeitura/>}/>
+        <Route path="/logincivil" element={<LoginPessoa/>}/>
+        <Route path="/profilepref" element={<Profile/>}/>
+        <Route path="/profilecivil" element={<ProfileCivil/>}/>
+        <Route path="/config" element={<Config/>}/>
+        <Route path='/config/proposito' element={<Proposito/>}/>
+        <Route path='/config/help' element={<Ajuda/>}/>
+        <Route path='/config/about' element={<About/>}/>
+      </Routes>    
+    </BrowserRouter>    
+  </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
 reportWebVitals();
