@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Resolve-Brasil/static/css/main.f1e59605.css",
-    "main.js": "/Resolve-Brasil/static/js/main.403a3f06.js",
+    "main.js": "/Resolve-Brasil/static/js/main.f4c0b631.js",
     "static/js/453.8b2bae31.chunk.js": "/Resolve-Brasil/static/js/453.8b2bae31.chunk.js",
     "static/media/ResolveBrasil.png": "/Resolve-Brasil/static/media/ResolveBrasil.18fa764bf6f9bf8474f0.png",
     "static/media/obt.png": "/Resolve-Brasil/static/media/obt.9d25f5473f49a48e9452.png",
@@ -22,11 +22,11 @@
     "static/media/pavimentacao.png": "/Resolve-Brasil/static/media/pavimentacao.368fbf172685920531d4.png",
     "index.html": "/Resolve-Brasil/index.html",
     "main.f1e59605.css.map": "/Resolve-Brasil/static/css/main.f1e59605.css.map",
-    "main.403a3f06.js.map": "/Resolve-Brasil/static/js/main.403a3f06.js.map",
+    "main.f4c0b631.js.map": "/Resolve-Brasil/static/js/main.f4c0b631.js.map",
     "453.8b2bae31.chunk.js.map": "/Resolve-Brasil/static/js/453.8b2bae31.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f1e59605.css",
-    "static/js/main.403a3f06.js"
+    "static/js/main.f4c0b631.js"
   ]
 }
