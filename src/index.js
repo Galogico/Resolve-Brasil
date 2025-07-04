@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import { BrowserRouter, Routes, Route } from 'react-router-dom'; // Add missing import
+import {  Routes, Route, HashRouter } from 'react-router-dom'; // Add missing import
 import './index.css';
 import reportWebVitals from './reportWebVitals';
 import { Inicial } from './Components/pagInicial';
@@ -20,7 +20,7 @@ import { About } from './Components/ConfigPages/About';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <BrowserRouter basename="/Resolve-Brasil"> 
+    <HashRouter> 
       <Routes> 
         <Route path="/" element={<Inicial/>}/>
         <Route path="/Resolve-Brasil/solscivil" element={<Solicitacoes/>}/>
@@ -36,7 +36,7 @@ root.render(
         <Route path='/config/help' element={<Ajuda/>}/>
         <Route path='/config/about' element={<About/>}/>
       </Routes>    
-    </BrowserRouter>    
+    </HashRouter>    
   </React.StrictMode>
 );
 
