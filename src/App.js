@@ -1,12 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
-import { Solicitacoes } from './Components/Solicitacoes';
+import { Solicitacoes } from './Components/Solicitacoes.js';
 import { SolsPref } from './Components/SolsPref';
 import Edit from './Components/EditPref';
 
 import { BrowserRouter as Router} from 'react-router-dom';
 import {Routes, Route} from 'react-router-dom';
-import { auth } from './firebaseconfig';
 import { NewSol } from './Components/NewSol';
 import { Inicial } from './Components/pagInicial';
 import { LoginPrefeitura } from './Components/LoginPrefeitura';

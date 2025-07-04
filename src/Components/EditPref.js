@@ -8,7 +8,6 @@ import logo from "./css/ResolveBrasil.png"
 export const Edit = () =>{
     const { id } = useParams();
     const [data, setData] = useState([]);
-    const [newSols, setNewSols] = useState("");
     
     useEffect(() =>{
         const fetchDocument = async () => {

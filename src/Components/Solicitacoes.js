@@ -2,7 +2,7 @@ import '../App.css';
 import { db } from "../firebaseconfig"
 import { useEffect, useState } from 'react';
 import logo from "./css/ResolveBrasil.png"
-import { getDocs, collection, addDoc } from 'firebase/firestore';
+import { getDocs, collection,} from 'firebase/firestore';
 
 import profile from "./icons/perfil.png"
 import config from "./icons/config.png"
@@ -35,12 +35,7 @@ export const Solicitacoes = () => {
     };
 
     getSols();
-  }, [])
-
-  const linkToPage = (system) => {
-    console.log("#/edit/" + system.id);
-    return `/edit/${system.id}`;
-  }
+  }, [solsCollectionRef])
 
   return (
     <div className='wrapper'>

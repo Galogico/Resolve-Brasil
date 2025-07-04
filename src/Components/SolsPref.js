@@ -1,7 +1,7 @@
 import '../App.css';
 import { db } from "../firebaseconfig"
 import { useEffect, useState } from 'react';
-import { getDocs, collection, addDoc } from 'firebase/firestore';
+import { getDocs, collection} from 'firebase/firestore';
 import "./css/solspref.css"
 import logo from "./css/ResolveBrasil.png"
 
@@ -36,7 +36,7 @@ export const SolsPref = () => {
     };
 
     getSols();
-  }, [])
+  }, [solsCollectionRef])
 
   const linkToPage = (system) => {
     console.log("#/edit/" + system.id);

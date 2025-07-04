@@ -2,7 +2,6 @@ import { useState, useEffect } from "react"
 import logo from "./css/ResolveBrasil.png"
 import { useNavigate } from "react-router-dom";
 import "./css/LoginPref.css"
-import { and } from "firebase/firestore";
 
 export const LoginPrefeitura = () =>{
     const [newCity, setNewCity] = useState("");
@@ -73,7 +72,7 @@ export const LoginPrefeitura = () =>{
       <img src="eyes.png" alt="Mostrar senha" class="eye-icon"/>
     </div>
 
-    <a href="#" onClick={OnLogin} class="button">Próximo</a>
+    <a onClick={OnLogin} class="button">Próximo</a>
   </div>
 
   <div class="bottom-bar"></div>

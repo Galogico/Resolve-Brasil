@@ -8,7 +8,7 @@ export const Profile = () =>{
         </div>
         <h1 font-weight = "bold">Perfil</h1>
         <hr></hr>
-        <img src={profile}></img>
+        <img alt="" src={profile}></img>
         <h2>Cidade:</h2>
         <p>{window.localStorage.getItem("CITY_MAYOR")}</p>
         <h2>Estado:</h2>

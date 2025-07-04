@@ -80,7 +80,7 @@ export const LoginPessoa = () => {
       <img src="eyes.png" alt="Mostrar senha" class="eye-icon"/>
     </div> */}
 
-    <a href="#"  onClick={OnLogin} class="button">Login</a>
+    <a onClick={OnLogin} class="button">Login</a>
   </div>
 
   <div class="bottom-bar"></div>
