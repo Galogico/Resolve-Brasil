@@ -23,7 +23,7 @@ root.render(
     <BrowserRouter basename="/Resolve-Brasil"> 
       <Routes> 
         <Route path="/" element={<Inicial/>}/>
-        <Route path="/solscivil" element={<Solicitacoes/>}/>
+        <Route path="/Resolve-Brasil/solscivil" element={<Solicitacoes/>}/>
         <Route path="/solspref" element={<SolsPref/>}/>
         <Route path="/newsol" element={<NewSol/>}/>
         <Route path="/edit/:id" element={<Edit/>}/>
