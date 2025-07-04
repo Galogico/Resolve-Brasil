@@ -4,8 +4,7 @@ import { Solicitacoes } from './Components/Solicitacoes.js';
 import { SolsPref } from './Components/SolsPref';
 import Edit from './Components/EditPref';
 
-import { BrowserRouter as Router} from 'react-router-dom';
-import {Routes, Route} from 'react-router-dom';
+import {Routes, Route, Router, BrowserRouter} from 'react-router-dom';
 import { NewSol } from './Components/NewSol';
 import { Inicial } from './Components/pagInicial';
 import { LoginPrefeitura } from './Components/LoginPrefeitura';
@@ -20,11 +19,11 @@ import { ProfileCivil } from './Components/ProfileCivil';
 function App() {
   return (
     <div className="App">
-      <Router>
       <div>
-        <section>                              
+        <section>      
+          <BrowserRouter>                    
             <Routes> 
-                  <Route path="/" element={<Inicial/>}/>
+                <Route path="/" element={<Inicial/>}/>
                  <Route path="/solscivil" element={<Solicitacoes/>}/>
                  <Route path="/solspref" element={<SolsPref/>}/>
                  <Route path="/newsol" element={<NewSol/>}/>
@@ -37,10 +36,10 @@ function App() {
                  <Route path='/config/proposito' element={<Proposito/>}/>
                  <Route path='/config/help' element={<Ajuda/>}/>
                  <Route path='/config/about' element={<About/>}/>
-            </Routes>                    
+            </Routes>    
+            </BrowserRouter>                    
         </section>
       </div>
-    </Router>
     </div>
   );
 }
