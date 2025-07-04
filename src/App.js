@@ -3,7 +3,6 @@ import './App.css';
 import { Solicitacoes } from './Components/Solicitacoes.js';
 import { SolsPref } from './Components/SolsPref';
 import Edit from './Components/EditPref';
-
 import {Routes, Route,  BrowserRouter} from 'react-router-dom';
 import { NewSol } from './Components/NewSol';
 import { Inicial } from './Components/pagInicial';
